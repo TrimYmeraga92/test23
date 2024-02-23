@@ -6,7 +6,6 @@ jobs:
     steps: 
       - name: Get code
         uses: actions/checkout@v3
-        with:
       - name: Install Dependencies
         run: npm ci
       - name: Lint
